@@ -16,14 +16,11 @@
 <meta name="twitter:title" content="Hexo">
 <meta name="twitter:description" content="{  “name”: “hexo-site”,  “version”: “0.0.0”,  “private”: true,  “hexo”: {    “version”: “3.2.2”  },  “dependencies”: {    “hexo”: “^3.2.0”,    “hexo-generator-archive”: “^0.1.4”,    “hexo-generator-ca">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
   
     <link rel="icon" href="/favicon.png">
   
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/css/style.css">
   
 
@@ -31,59 +28,57 @@
 
 <body>
   <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
+    <header id="header">
   <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
     <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo" href="/"></a>
       <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
         
           <a class="main-nav-link" href="/">Home</a>
         
           <a class="main-nav-link" href="/archives">Archives</a>
         
+          <a class="main-nav-link" href="/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+          <a class="main-nav-link" href="/atom.xml">Rss</a>
+        
       </nav>
       <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+        </div>
       </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
     </div>
   </div>
 </header>
-      <div class="outer">
-        <section id="main"><article id="post-git-guide" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/03/02/git-guide/" class="article-date">
-  <time datetime="2017-03-02T11:19:31.993Z" itemprop="datePublished">2017-03-02</time>
-</a>
-    
-  </div>
+    <section id="main" class="outer"><article id="post-git-guide" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     
+    <div class="article-meta">
+      <a href="/2017/03/02/git-guide/" class="article-date">
+  <time datetime="2017-03-02T11:19:31.993Z" itemprop="datePublished">2017-03-02</time>
+</a>
+      
+      
+    </div>
     <div class="article-entry" itemprop="articleBody">
       
         <p>{<br>  “name”: “hexo-site”,<br>  “version”: “0.0.0”,<br>  “private”: true,<br>  “hexo”: {<br>    “version”: “3.2.2”<br>  },<br>  “dependencies”: {<br>    “hexo”: “^3.2.0”,<br>    “hexo-generator-archive”: “^0.1.4”,<br>    “hexo-generator-category”: “^0.1.3”,<br>    “hexo-generator-index”: “^0.2.0”,<br>    “hexo-generator-tag”: “^0.2.0”,<br>    “hexo-renderer-ejs”: “^0.2.0”,<br>    “hexo-renderer-stylus”: “^0.3.1”,<br>    “hexo-renderer-marked”: “^0.2.10”,<br>    “hexo-server”: “^0.2.0”<br>  }<br>}</p>
 
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/02/git-guide/" data-id="cizsau1pd0001jwc84qzf57p9" class="article-share-link">Share</a>
-      
-      
-    </footer>
+    
+    
+      <footer class="article-footer">
+        
+      </footer>
+    
   </div>
   
     
@@ -91,8 +86,7 @@
   
   
     <a href="/2017/03/02/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">Hello World&nbsp;<span>&gt;</span></div>
     </a>
   
 </nav>
@@ -100,70 +94,36 @@
   
 </article>
 
+
+
+
+<div class="share_addthis">
+  <div class="sharing addthis_toolbox share">
+    <a class="addthis_button_facebook_like"></a>
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560c64c35486b3d4" async="async"></script>
+</div>
+
+
+
+
+
 </section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/03/02/git-guide/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2017/03/02/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
+    <footer id="footer">
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2017 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      &copy; 2017 John Doe&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
     </div>
   </div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.min.js"></script>
 
 
   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
@@ -171,7 +131,6 @@
 
 
 <script src="/js/script.js"></script>
-
   </div>
 </body>
 </html>
